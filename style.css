@@ -1,0 +1,176 @@
+@font-face 
+{
+
+    font-family:IRANSANS ;
+    src: url('IRANSans(FaNum)_Medium (1).ttf');
+}
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+   background-color: black;
+}
+
+#btn_register1{
+
+    background-color:white;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    width: 250;
+    height: 70px;
+    font-size: 30px;
+    font-family:IRANSANS ;
+    color:black;
+    border-radius: 50px;
+    border-style: none;
+}
+
+#btn_register1:hover{
+    transform: scale(0.96);
+}
+
+#container{
+
+    background:linear-gradient( 90deg ,#fa7199 , #f5ce62 , #e43603 );
+    background-size: 350%;
+    padding-top: 30px;
+    padding-right: 15px;
+    margin-top: 80px;
+    margin-left: 35%;
+    direction: rtl;
+    display: none;
+    width: 25%;
+    height:590px;
+    align-items: center;
+
+}
+    
+#btn_register2{
+
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:IRANSANS;
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#btn_register2:hover{
+    transform: scale(0.96);
+}
+
+h3{
+
+    font-family:IRANSANS ;
+    margin-top: -20px;
+}
+
+
+h5{
+    font-family:IRANSANS ;
+}
+
+.input{
+    background-color:#ddc1c6;
+    border: none;
+    box-shadow: inset -4px -4px 4px #fff,
+    inset  4px 4px 4px  rgba(0,0,0,0.3);
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input{
+    font-family:IRANSANS ;
+    margin-right: 17px;
+}
+
+#btn_mode{
+    position: relative;
+    right: 320px;
+    top: -15px;
+    background:none;
+    border: none;
+}
+
+#btn_mode2{
+    position: relative;
+    right: 320px;
+    top: -15px;
+    background:none;
+    border: none;
+    display: none;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+
+}
+
+#btn_mode:hover{
+    transform: scale(0.76);
+
+}
+
+#btn_mode2:hover{
+    transform: scale(0.76);
+
+}
+
+#married{
+    display: none;
+}
+
+#married_name{
+    display: none;
+}
+
+#btn_p{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: none;
+}
+
+#btn_s{
+    background-color: black;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: none;
+}
+
+#farzand{
+    display: none;
+}
+
+#dara{
+    display: none;
+}
+
+#dara_farzand{
+    display: none;
+}
+
+#my_list{
+    list-style-type: none;
+}
+

@@ -1,0 +1,83 @@
+<html>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Nastaran Saberi">
+    <meta name="description" content="Registration Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+    
+    <body>
+
+       <div >
+           <button id="btn_register1">ثبت نام</button>
+       </div>
+
+    
+        <div id="container">
+
+
+            <div class="mode">
+                <button id="btn_mode"><img src="808825.png" class="img" alt="moon"></button>
+                <button id="btn_mode2"><img src="3099932.png" class="img" alt="moon"></button>
+            </div>
+        
+        <form>
+
+            <h3>نام</h3>
+        <input type="text" class="input" placeholder="enter your name" >
+        <br><br><br>
+
+        
+        <h3>ایمیل</h3>
+        <input type="email" class="input" placeholder="enter your Email address">
+        <br><br><br>
+
+
+        <h3>کلمه عبور</h3>
+        <input type="password" class="input" placeholder="password" >
+        <br><br><br>
+
+
+    <div>
+
+        <h3>وضعیت تاهل</h3>
+        <div ><input type="radio" name="x" id="btn_single"><h5>مجرد</h5></div>
+        <div ><input type="radio" name="x" id="btn_married"><h5>متاهل</h5></div>
+ 
+        <br>
+
+        <h3 id="married_name">نام همسر</h3>
+        <input type="text" class="input" placeholder="enter name" id="married" >
+        <br><br><br>
+
+
+    </div>
+
+      <h3 id="dara">دارای فرزند</h3>
+      <input type="checkbox" id="dara_farzand">
+      <br><br><b></b>
+
+
+       <h3 id="farzand">فرزندان</h3>
+       <br>
+       <button type="button" id="btn_p" onclick="bache_jadid()" >+</button>
+       <button type="button" id="btn_s" onclick="remove_jadid()" >-</button>
+
+
+       <ul id="my_list"></ul>
+
+
+       <div><button id="btn_register2">ثبت نام</button></div>
+
+     </div> 
+
+        </form>
+
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
